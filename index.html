@@ -10,17 +10,23 @@
     <body>
         <h1>To the Holidays</h1>
         <p id="msg">Please which subsection of Holidays you would like to see</p>
-        <select name= "Federal Holidays" id="federal-select">
-            <option value ="New_Years">New Years</option>
-            <option value ="MLK">MLK</option>
-            <option value ="Valentines">Valentines</option>
+
+        <select name= "Federal Holidays" id="federal-select" onchange="handleSelect(this)">
+            <option>Federal Holidays</option>
+            <option value ="newyears.html">New Years</option>
+            <option value ="mlk.html">MLK</option>
+            <option value ="valentines.html">Valentines</option>
+            
         </select>
 
-        <select name= "Religous Holidays" id="religous-select">
-            <option value ="Easter">Easter</option>
-            <option value ="Diwali">Diwali</option>
-            <option value ="Eid">Eid</option>
+        <select name= "Religous Holidays" id="religous-select" onchange="handleSelect(this)">
+            <option>Religous Holidays</option>
+            <option value ="easter.html">Easter</option>
+            <option value ="diwali.html">Diwali</option>
+            <option value ="eid.html">Eid</option>
+            
         </select>
+        <script src ="app.js"></script>
 
     </body>
 </html>

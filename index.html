@@ -7,11 +7,21 @@
         <title>Project Holidays</title>
         <link rel ="stylesheet" href="main.css">
     </head>
+    <header>
+        <nav class="nav">
+            <ul>
+            <li><a href = "newyears.html">test 1</a></li>
+            <li><a href = "mlk.html">test 2</a></li>
+            <li><a href = "valentines.html">test 3</a></li>
+            </ul>
+        </nav>
+    </header>
     <body>
         <h1>To the Holidays</h1>
         <p id="msg">Please which subsection of Holidays you would like to see</p>
 
-        <select name= "Federal Holidays" id="federal-select" onchange="handleSelect(this)">
+        <div class="dropdown">
+        <select name= "Federal Holidays" id="federalselect" onchange="handleSelect(this)">
             <option>Federal Holidays</option>
             <option value ="newyears.html">New Years</option>
             <option value ="mlk.html">MLK</option>
@@ -19,13 +29,14 @@
             
         </select>
 
-        <select name= "Religous Holidays" id="religous-select" onchange="handleSelect(this)">
+        <select name= "Religous Holidays" id="religousselect" onchange="handleSelect(this)">
             <option>Religous Holidays</option>
             <option value ="easter.html">Easter</option>
             <option value ="diwali.html">Diwali</option>
             <option value ="eid.html">Eid</option>
             
         </select>
+        </div>
         <script src ="app.js"></script>
 
     </body>

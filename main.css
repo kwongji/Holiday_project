@@ -1,31 +1,40 @@
 body{
     font-family:monospace;
+
 }
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
 ul{
     font-family:monospace;
 }
-.buttonFederal{
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-
-    position:absolute;
-    top: 100px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+.nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: grey;
 }
-.buttonReligous{
-    position:absolute;
-    top: 100px;
-    left: 0px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+.nav ul li{
+        float: left;
+        display: flex;
+}
+.nav ul li a{
+        display: block;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        color: white;
+}
+.nav ul li a:hover{
+    background-color: #111111;
+}
+.dropdown{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

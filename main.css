@@ -38,3 +38,45 @@ ul{
     justify-content: center;
     align-items: center;
 }
+.button-center{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.button-center a{
+    text-decoration: none;
+}
+.button{
+
+    display: flex;
+    padding: 10px 10px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    width: 250px;
+    height: 150px;
+    
+}
+.button:hover{
+    background-color: #e0b9b9;
+    
+}
+.recipe{
+background-color: bisque;
+}
+.store{
+background-color: aliceblue;
+}
+.lore{
+    
+    background-color: azure;
+}
+.return{
+display: flex;
+align-items: center;
+justify-content: center;
+}
